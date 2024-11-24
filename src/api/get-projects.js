@@ -25,7 +25,7 @@ async function getProjects() {
   }
 
   // ...on the other hand, if the request was successful then we will return the data from the response.
-  // Turing the response to JSON takes time so we need to use the `await` keyword again.
+  // Turning the response to JSON takes time so we need to use the `await` keyword again.
   return await response.json();
 }
 

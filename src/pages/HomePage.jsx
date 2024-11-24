@@ -1,9 +1,19 @@
 import useProjects from "../hooks/use-projects";
 import ProjectCard from "../components/ProjectCard";
+import { useParams } from "react-router-dom";
 import "./HomePage.css";
 
 function HomePage() {
-  const { projects } = useProjects();
+  const { projects, isLoading, error } = useProjects();
+
+  if (isLoading) {
+    return <p>loading...</p>;
+  }
+
+  if (error) {
+    return <p>{error.message}</p>;
+  }
+
   return (
     <div id="project-list">
       {projects.map((projectData, key) => {

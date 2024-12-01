@@ -1,13 +1,12 @@
 import useProjects from "../hooks/use-projects";
 import ProjectCard from "../components/ProjectCard";
-import { useParams } from "react-router-dom";
 import "./HomePage.css";
 
 function HomePage() {
   const { projects, isLoading, error } = useProjects();
 
   if (isLoading) {
-    return <p>loading...</p>;
+    return <p>Hold please...</p>;
   }
 
   if (error) {

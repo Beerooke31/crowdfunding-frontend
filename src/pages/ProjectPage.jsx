@@ -9,7 +9,7 @@ function ProjectPage() {
   const { project, isLoading, error } = useProject(id);
 
   if (isLoading) {
-    return <p>loading...</p>;
+    return <p>Chotto matte yo...</p>;
   }
 
   if (error) {

@@ -3,7 +3,8 @@
   grid-template-columns: 30% 30% 30%;
   column-gap: 70px;
   row-gap: 50px;
-  background-color: FFCCFF;
 }
 
-
+body {
+  font: #c0c0c0;
+}

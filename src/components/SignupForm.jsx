@@ -3,8 +3,8 @@ import "./SignupForm.css";
 
 function SignupForm() {
   const [credentials, setCredentials] = useState({
-    firstName: "",
-    lastName: "",
+    firstname: "",
+    lastname: "",
     email: "",
     username: "",
     password: "",
@@ -21,7 +21,7 @@ function SignupForm() {
   return (
     <form>
       <div>
-        <label htmlFor="firstName">First Name:</label>
+        <label htmlFor="firstname">First Name:</label>
         <input
           type="text"
           id="firstName"
@@ -30,7 +30,7 @@ function SignupForm() {
         />
       </div>
       <div>
-        <label htmlFor="lastName">Last Name:</label>
+        <label htmlFor="lastname">Last Name:</label>
         <input
           type="text"
           id="lastName"

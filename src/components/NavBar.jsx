@@ -19,9 +19,10 @@ function NavBar() {
             Log Out
           </Link>
         ) : (
-          <Link to="/login">Login</Link>
+          <Link to="/login">Log In</Link>
         )}
         <Link to="/signup">Sign Up</Link>
+        <Link to="/createaproject">Create A Project</Link>
         <Link to="/about">About</Link>
         <Link to="/contactus">Contact</Link>
       </nav>

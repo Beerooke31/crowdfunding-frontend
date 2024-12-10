@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-
 import postProject from "../api/post-project.js";
 import { useAuth } from "../hooks/use-auth.js";
 
@@ -83,7 +82,7 @@ function ProjectForm() {
         <input
           type="input"
           id="image"
-          placeholder="Upload an image"
+          placeholder="Add an image"
           onChange={handleChange}
         />
       </div>

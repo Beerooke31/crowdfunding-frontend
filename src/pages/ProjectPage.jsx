@@ -1,6 +1,7 @@
 import { oneProject } from "../data";
 import { useParams } from "react-router-dom";
 import useProject from "../hooks/use-project";
+import PledgeForm from "../components/PledgeForm";
 
 function ProjectPage() {
   // Here we use a hook that comes for free in react router called `useParams` to get the id from the URL so that we can pass it to our useProject hook.
@@ -31,6 +32,7 @@ function ProjectPage() {
           );
         })}
       </ul>
+      <PledgeForm />
     </div>
   );
 }

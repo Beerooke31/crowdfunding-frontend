@@ -23,6 +23,7 @@ function NavBar() {
         )}
         <Link to="/signup">Sign Up</Link>
         <Link to="/createaproject">Create A Project</Link>
+        <Link to="/pledge">Donate Here!</Link>
         <Link to="/about">About</Link>
         <Link to="/contactus">Contact</Link>
       </nav>

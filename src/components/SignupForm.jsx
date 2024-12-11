@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useAuth } from "../hooks/use-auth";
 import postSignup from "../api/post-signup";
+import { useAuth } from "../hooks/use-auth";
 import "./SignupForm.css";
 
 function SignupForm() {
@@ -26,15 +26,15 @@ function SignupForm() {
   const handleSubmit = (event) => {
     event.preventDefault();
     if (
-      credentials.firstname &&
-      credentials.lastname &&
+      // credentials.firstname &&
+      // credentials.lastname &&
       credentials.email &&
       credentials.username &&
       credentials.password
     ) {
       postSignup(
-        credentials.firstname,
-        credentials.lastname,
+        // credentials.firstname,
+        // credentials.lastname,
         credentials.email,
         credentials.username,
         credentials.password
@@ -47,8 +47,9 @@ function SignupForm() {
       });
     }
   };
+
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
       <div>
         <label htmlFor="firstname">First Name:</label>
         <input

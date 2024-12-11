@@ -2,7 +2,7 @@ import useProjects from "../hooks/use-projects";
 import ProjectCard from "../components/ProjectCard";
 import "./HomePage.css";
 
-function ProjectListPage() {
+function ProjectList() {
   const { projects, isLoading, error } = useProjects();
 
   if (isLoading) {
@@ -22,4 +22,4 @@ function ProjectListPage() {
   );
 }
 
-export default ProjectListPage;
+export default ProjectList;

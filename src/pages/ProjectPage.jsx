@@ -10,7 +10,7 @@ function ProjectPage() {
   const { project, isLoading, error } = useProject(id);
 
   if (isLoading) {
-    return <p>Chotto matte yo...</p>;
+    return <p>Hold your horses boys...</p>;
   }
 
   if (error) {
@@ -35,6 +35,8 @@ function ProjectPage() {
       <PledgeForm />
     </div>
   );
+  
 }
+
 
 export default ProjectPage;

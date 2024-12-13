@@ -50,53 +50,57 @@ function SignupForm() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <h1>Sign Up for an Account</h1>
-      <div>
-        <label htmlFor="firstname">First Name:</label>
-        <input
-          type="text"
-          id="firstName"
-          placeholder="Enter your first name"
-          onChange={handleChange}
-        />
+      <div class="signupform">
+        <h1>Sign Up for an Account</h1>
+        <div>
+          <label htmlFor="firstname">First Name:</label>
+          <input
+            type="text"
+            id="firstName"
+            placeholder="Enter your first name"
+            onChange={handleChange}
+          />
+        </div>
+        <div>
+          <label htmlFor="lastname">Last Name:</label>
+          <input
+            type="text"
+            id="lastName"
+            placeholder="Enter your last name"
+            onChange={handleChange}
+          />
+        </div>
+        <div>
+          <label htmlFor="email">Email:</label>
+          <input
+            type="text"
+            id="email"
+            placeholder="Enter your email"
+            onChange={handleChange}
+          />
+        </div>
+        <div>
+          <label htmlFor="username">Create a username:</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Create a username"
+            onChange={handleChange}
+          />
+        </div>
+        <div>
+          <label htmlFor="password">Create a password:</label>
+          <input
+            type="text"
+            id="password"
+            placeholder="Create a password"
+            onChange={handleChange}
+          />
+        </div>
+        <button class="greenbutton" type="submit">
+          Submit
+        </button>
       </div>
-      <div>
-        <label htmlFor="lastname">Last Name:</label>
-        <input
-          type="text"
-          id="lastName"
-          placeholder="Enter your last name"
-          onChange={handleChange}
-        />
-      </div>
-      <div>
-        <label htmlFor="email">Email:</label>
-        <input
-          type="text"
-          id="email"
-          placeholder="Enter your email"
-          onChange={handleChange}
-        />
-      </div>
-      <div>
-        <label htmlFor="username">Create a username:</label>
-        <input
-          type="text"
-          id="username"
-          placeholder="Create a username"
-          onChange={handleChange}
-        />
-      </div>
-      <div>
-        <label htmlFor="password">Create a password:</label>
-        <input
-          type="text"
-          id="password"
-          placeholder="Create a password"
-          onChange={handleChange}
-        />
-      </div>
-      <button type="submit">Submit</button>
     </form>
   );
 }

@@ -1,4 +1,31 @@
-form {
-    display: flex;
-    
+.loginform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px;
+  padding: 50px;
+  background-color: #05ffa1;
+  width: 40%;
+  border-radius: 5%;
+}
+
+div {
+  padding: 5px;
+  margin: 10px;
+}
+
+#password {
+  margin-bottom: 10px;
+}
+
+.yellowbutton:hover {
+  background-color: #fffb96; /* Green */
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  border-radius: 10%;
+  font-family: "outfit";
 }

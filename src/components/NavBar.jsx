@@ -13,18 +13,30 @@ function NavBar() {
   return (
     <div>
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/signup">Sign Up</Link>
-        {auth.token ? (
-          <Link to="/" onClick={handleLogout}>
-            Log Out
-          </Link>
-        ) : (
-          <Link to="/login">Log In</Link>
-        )}
-        <Link to="/projects">Projects</Link>
-        <Link to="/createaproject">Create A Project</Link>
-        <Link to="/about">About</Link>
+        <div class="home">
+          <Link to="/">Home</Link>
+        </div>
+        <div class="signup">
+          <Link to="/signup">Sign Up</Link>
+        </div>
+        <div class="login">
+          {auth.token ? (
+            <Link to="/" onClick={handleLogout}>
+              Log Out
+            </Link>
+          ) : (
+            <Link to="/login">Log In</Link>
+          )}
+        </div>
+        <div class="projects">
+          <Link to="/projects">Projects</Link>
+        </div>
+        <div class="createproject">
+          <Link to="/createaproject">Create A Project</Link>
+        </div>
+        <div class="about">
+          <Link to="/about">About</Link>
+        </div>
       </nav>
       <Outlet />
     </div>

@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import postProject from "../api/post-project.js";
 import { useAuth } from "../hooks/use-auth.js";
+import "./ProjectForm.css";
 
 function ProjectForm() {
   const navigate = useNavigate();
@@ -50,46 +51,48 @@ function ProjectForm() {
   };
   return (
     <form>
-      <h1>Let's Start Searching</h1>
-      <div>
-        <label htmlFor="title">Title:</label>
-        <input
-          type="text"
-          id="title"
-          placeholder="What's the title of your project?"
-          onChange={handleChange}
-        />
+      <div class="createprojectform">
+        <h1>Let's Start Searching</h1>
+        <div>
+          <label htmlFor="title">Title:</label>
+          <input
+            type="text"
+            id="title"
+            placeholder="Project title"
+            onChange={handleChange}
+          />
+        </div>
+        <div>
+          <label htmlFor="description">Description:</label>
+          <input
+            type="description"
+            id="description"
+            placeholder="Description"
+            onChange={handleChange}
+          />
+        </div>
+        <div>
+          <label htmlFor="goal">Goal:</label>
+          <input
+            type="goal"
+            id="goal"
+            placeholder="Fundraising goal"
+            onChange={handleChange}
+          />
+        </div>
+        <div>
+          <label htmlFor="image">Image:</label>
+          <input
+            type="input"
+            id="image"
+            placeholder="Add an image"
+            onChange={handleChange}
+          />
+        </div>
+        <button class="pinkbutton" type="submit" onClick={handleSubmit}>
+          Submit
+        </button>
       </div>
-      <div>
-        <label htmlFor="description">Description:</label>
-        <input
-          type="description"
-          id="description"
-          placeholder="Description"
-          onChange={handleChange}
-        />
-      </div>
-      <div>
-        <label htmlFor="goal">Goal:</label>
-        <input
-          type="goal"
-          id="goal"
-          placeholder="Fundraising goal"
-          onChange={handleChange}
-        />
-      </div>
-      <div>
-        <label htmlFor="image">Image:</label>
-        <input
-          type="input"
-          id="image"
-          placeholder="Add an image"
-          onChange={handleChange}
-        />
-      </div>
-      <button type="submit" onClick={handleSubmit}>
-        Submit
-      </button>
     </form>
   );
 }

@@ -34,28 +34,30 @@ function LoginForm() {
   };
   return (
     <form>
-      <h1>Log In Stranger</h1>
-      <div>
-        <label htmlFor="username">Username:</label>
-        <input
-          type="text"
-          id="username"
-          placeholder="Enter username"
-          onChange={handleChange}
-        />
+      <div class="loginform">
+        <h1>Log In Stranger</h1>
+        <div>
+          <label htmlFor="username">Username:</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Enter username"
+            onChange={handleChange}
+          />
+        </div>
+        <div>
+          <label htmlFor="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            onChange={handleChange}
+          />
+        </div>
+        <button class="yellowbutton" type="submit" onClick={handleSubmit}>
+          Login
+        </button>
       </div>
-      <div>
-        <label htmlFor="password">Password:</label>
-        <input
-          type="password"
-          id="password"
-          placeholder="Password"
-          onChange={handleChange}
-        />
-      </div>
-      <button type="submit" onClick={handleSubmit}>
-        Login
-      </button>
     </form>
   );
 }

@@ -2,4 +2,41 @@ nav {
   display: flex;
   justify-content: space-around;
   padding: 10px;
+  font: white;
+}
+
+.home:hover {
+  background-color: #ff71ce;
+  font-size: 30px;
+  border-radius: 10%;
+}
+
+.signup:hover {
+  background-color: #01cdfe;
+  font-size: 30px;
+  border-radius: 10%;
+}
+
+.login:hover {
+  background-color: #05ffa1;
+  font-size: 30px;
+  border-radius: 10%;
+}
+
+.projects:hover {
+  background-color: #b967ff;
+  font-size: 30px;
+  border-radius: 10%;
+}
+
+.createproject:hover {
+  background-color: #fffb96;
+  font-size: 30px;
+  border-radius: 10%;
+}
+
+.about:hover {
+  background-color: #ff71ce;
+  font-size: 30px;
+  border-radius: 10%;
 }

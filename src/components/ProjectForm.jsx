@@ -50,6 +50,7 @@ function ProjectForm() {
   };
   return (
     <form>
+      <h1>Let's Start Searching</h1>
       <div>
         <label htmlFor="title">Title:</label>
         <input

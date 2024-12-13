@@ -26,15 +26,15 @@ function SignupForm() {
   const handleSubmit = (event) => {
     event.preventDefault();
     if (
-      // credentials.firstname &&
-      // credentials.lastname &&
+      credentials.firstname &&
+      credentials.lastname &&
       credentials.email &&
       credentials.username &&
       credentials.password
     ) {
       postSignup(
-        // credentials.firstname,
-        // credentials.lastname,
+        credentials.firstname,
+        credentials.lastname,
         credentials.email,
         credentials.username,
         credentials.password
@@ -50,6 +50,7 @@ function SignupForm() {
 
   return (
     <form onSubmit={handleSubmit}>
+      <h1>Sign Up for an Account</h1>
       <div>
         <label htmlFor="firstname">First Name:</label>
         <input

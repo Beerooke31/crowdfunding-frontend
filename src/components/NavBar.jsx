@@ -22,7 +22,7 @@ function NavBar() {
         ) : (
           <Link to="/login">Log In</Link>
         )}
-        <Link to="/">Projects</Link>
+        <Link to="/projects">Projects</Link>
         <Link to="/createaproject">Create A Project</Link>
         <Link to="/about">About</Link>
       </nav>

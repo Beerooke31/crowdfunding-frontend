@@ -1,31 +1,76 @@
-.loginform {
+body {
+  /* background-color: #6998a714; */
+  margin: 0;
+  width: 100vw;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  margin: 100px;
-  padding: 50px;
-  background-color: #05ffa1;
-  width: 40%;
-  border-radius: 5%;
-}
-
-div {
-  padding: 5px;
-  margin: 10px;
-}
-
-#password {
-  margin-bottom: 10px;
-}
-
-.yellowbutton:hover {
-  background-color: #fffb96; /* Green */
-  border: none;
-  padding: 15px 32px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 25px;
-  border-radius: 10%;
-  font-family: "outfit";
+  justify-content: center;
+  place-items: center;
+}
+
+.login-container {
+  position: relative;
+  width: 350px;
+  height: 540px;
+  border-radius: 20px;
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  background: #05ffa1;
+}
+
+.inputs {
+  text-align: left;
+  margin-top: 30px;
+}
+
+label,
+input,
+button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+label:nth-of-type(2) {
+  margin-top: 12px;
+}
+
+input::placeholder {
+  color: gray;
+}
+
+input {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+.greenbutton {
+  color: white;
+  margin-top: 20px;
+  background: #1ee99b;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+}
+
+button:hover {
+  box-shadow: none;
 }

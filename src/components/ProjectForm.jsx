@@ -51,47 +51,49 @@ function ProjectForm() {
   };
   return (
     <form>
-      <div class="createprojectform">
-        <h1>Let's Start Searching</h1>
-        <div>
-          <label htmlFor="title">Title:</label>
-          <input
-            type="text"
-            id="title"
-            placeholder="Project title"
-            onChange={handleChange}
-          />
+      <div class="projectcontainer">
+        <h1>The Journey Begins</h1>
+        <div class="inputs">
+          <div>
+            <label htmlFor="title">Title:</label>
+            <input
+              type="text"
+              id="title"
+              placeholder="Project title"
+              onChange={handleChange}
+            />
+          </div>
+          <div>
+            <label htmlFor="description">Description:</label>
+            <input
+              type="description"
+              id="description"
+              placeholder="Description"
+              onChange={handleChange}
+            />
+          </div>
+          <div>
+            <label htmlFor="goal">Goal:</label>
+            <input
+              type="goal"
+              id="goal"
+              placeholder="Fundraising goal"
+              onChange={handleChange}
+            />
+          </div>
+          <div>
+            <label htmlFor="image">Image:</label>
+            <input
+              type="input"
+              id="image"
+              placeholder="Add an image"
+              onChange={handleChange}
+            />
+          </div>
+          <button class="yellowbutton" type="submit" onClick={handleSubmit}>
+            Submit
+          </button>
         </div>
-        <div>
-          <label htmlFor="description">Description:</label>
-          <input
-            type="description"
-            id="description"
-            placeholder="Description"
-            onChange={handleChange}
-          />
-        </div>
-        <div>
-          <label htmlFor="goal">Goal:</label>
-          <input
-            type="goal"
-            id="goal"
-            placeholder="Fundraising goal"
-            onChange={handleChange}
-          />
-        </div>
-        <div>
-          <label htmlFor="image">Image:</label>
-          <input
-            type="input"
-            id="image"
-            placeholder="Add an image"
-            onChange={handleChange}
-          />
-        </div>
-        <button class="pinkbutton" type="submit" onClick={handleSubmit}>
-          Submit
-        </button>
       </div>
     </form>
   );

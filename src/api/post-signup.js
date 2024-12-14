@@ -4,7 +4,6 @@ async function postSignup(username, password, email) {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      Authorization: `Token ${authToken}`,
     },
 
     body: JSON.stringify({

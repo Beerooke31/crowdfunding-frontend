@@ -14,10 +14,15 @@ function HomePage() {
   }
 
   return (
-    <div id="project-list">
-      {projects.map((projectData, key) => {
-        return <ProjectCard key={key} projectData={projectData} />;
-      })}
+    <div>
+      <div class="home-title">
+        <h1>STARBOUNTY</h1>
+      </div>
+      <div id="project-list">
+        {projects.map((projectData, key) => {
+          return <ProjectCard key={key} projectData={projectData} />;
+        })}
+      </div>
     </div>
   );
 }

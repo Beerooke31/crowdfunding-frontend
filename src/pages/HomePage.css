@@ -5,6 +5,15 @@
   row-gap: 50px;
 }
 
-body {
+* {
   font-family: "outfit";
+}
+
+.home-title {
+  font-size: 100px;
+  text-align: center;
+  font-family: "outfit";
+  background: -webkit-linear-gradient(60deg, #05ffa1, #ff71ce, #01cdfe 75%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

@@ -1,8 +1,8 @@
 nav {
   display: flex;
   justify-content: space-around;
-  padding: 10px;
-  font: white;
+  text-align: center;
+  padding: 20px;
 }
 
 .home:hover {
@@ -23,12 +23,6 @@ nav {
   border-radius: 10%;
 }
 
-.projects:hover {
-  background-color: #b967ff;
-  font-size: 30px;
-  border-radius: 10%;
-}
-
 .createproject:hover {
   background-color: #fffb96;
   font-size: 30px;
@@ -36,7 +30,7 @@ nav {
 }
 
 .about:hover {
-  background-color: #ff71ce;
+  background-color: #b967ff;
   font-size: 30px;
   border-radius: 10%;
 }

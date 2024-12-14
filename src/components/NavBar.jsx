@@ -28,9 +28,9 @@ function NavBar() {
             <Link to="/login">Log In</Link>
           )}
         </div>
-        <div class="projects">
+        {/* <div class="projects">
           <Link to="/projects">Projects</Link>
-        </div>
+        </div> */}
         <div class="createproject">
           <Link to="/createaproject">Create A Project</Link>
         </div>

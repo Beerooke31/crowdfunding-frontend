@@ -4,8 +4,7 @@ import postPledge from "../api/post-pledge.js";
 import { useAuth } from "../hooks/use-auth.js";
 import { useParams } from "react-router-dom";
 import "./PledgeForm.css";
-import "./ProjectCard.jsx"
-import ProjectCard from "./ProjectCard.jsx";
+import "./ProjectCard.jsx";
 
 function PledgeForm() {
   const navigate = useNavigate();

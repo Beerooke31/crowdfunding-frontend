@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import postSignup from "../api/post-signup";
 import { useAuth } from "../hooks/use-auth";
 import "./SignupForm.css";
-import "./NavBar.css";
 
 function SignupForm() {
   const navigate = useNavigate();

@@ -1,12 +1,22 @@
-nav {
+.navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
   text-align: center;
   padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
 }
 
 .home:hover {
-  background-color: #ff71ce;
+  background-color: #fffb96;
   font-size: 30px;
   border-radius: 10%;
 }
@@ -24,9 +34,10 @@ nav {
 }
 
 .createproject:hover {
-  background-color: #fffb96;
+  background-color: #ff71ce;
   font-size: 30px;
   border-radius: 10%;
+  width: 120px;
 }
 
 .about:hover {

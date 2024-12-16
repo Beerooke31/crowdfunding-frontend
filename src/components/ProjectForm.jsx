@@ -90,7 +90,7 @@ function ProjectForm() {
               onChange={handleChange}
             />
           </div>
-          <button class="yellowbutton" type="submit" onClick={handleSubmit}>
+          <button class="pinkbutton" type="submit" onClick={handleSubmit}>
             Submit
           </button>
         </div>

@@ -1,23 +1,13 @@
-body {
-  margin: 0;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  place-items: center;
-}
-
 .projectcontainer {
   position: relative;
   width: 350px;
-  height: 600px;
+  height: 800px;
   border-radius: 20px;
   padding: 40px;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+  margin: 40px auto 0px;
   box-sizing: border-box;
-  background: #fffb96;
+  background: #ff71ce;
 }
 
 .inputs {
@@ -38,6 +28,7 @@ button {
 
 label {
   margin-bottom: 4px;
+  padding: 20px;
 }
 
 label:nth-of-type(2) {
@@ -58,13 +49,14 @@ input {
   box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
 }
 
-.yellowbutton {
-  color: white;
-  margin-top: 20px;
-  background: #f8f36c;
-  height: 40px;
+.pinkbutton {
+  color: black;
+  margin-top: 60px;
+  background: #e94eb3;
+  height: 50px;
   border-radius: 20px;
   cursor: pointer;
+  font-size: 15px;
   font-weight: 900;
   box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
   transition: 0.5s;

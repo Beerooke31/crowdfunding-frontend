@@ -1,6 +1,10 @@
 .aboutdescription {
   background-color: #b967ff;
   border-radius: 10%;
-  height: 300px;
-  width: 550px;
+  height: 400px;
+  width: 700px;
+  font-size: 20px;
+  text-align: center;
+  padding: 50px;
+  margin: 100px auto;
 }

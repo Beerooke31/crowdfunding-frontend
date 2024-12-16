@@ -2,6 +2,7 @@ import { oneProject } from "../data";
 import { useParams } from "react-router-dom";
 import useProject from "../hooks/use-project";
 import PledgeForm from "../components/PledgeForm";
+import "./ProjectPage.css";
 
 function ProjectPage() {
   // Here we use a hook that comes for free in react router called `useParams` to get the id from the URL so that we can pass it to our useProject hook.
@@ -19,24 +20,25 @@ function ProjectPage() {
 
   return (
     <div>
-      <h2>{project.title}</h2>
-      <h3>Created at: {project.date_created}</h3>
-      <h3>{`Status: ${project.is_open}`}</h3>
-      <h3>Pledges:</h3>
-      <ul>
-        {project.pledges.map((pledgeData, key) => {
-          return (
-            <li key={key}>
-              {pledgeData.amount} from {pledgeData.supporter}
-            </li>
-          );
-        })}
-      </ul>
+      <div class="project-title">
+        <h2>{project.title}</h2>
+      </div>
+      <div class="pledge-info">
+        <h3>Pledges:</h3>
+        <ul>
+          {project.pledges.map((pledgeData, key) => {
+            return (
+              <p key={key}>
+                {pledgeData.amount} of {pledgeData.goal}
+              </p>
+            );
+          })}
+        </ul>
+      </div>
+
       <PledgeForm />
     </div>
   );
-  
 }
-
 
 export default ProjectPage;

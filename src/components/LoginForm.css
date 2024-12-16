@@ -1,22 +1,11 @@
-body {
-  /* background-color: #6998a714; */
-  margin: 0;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  place-items: center;
-}
-
 .login-container {
   position: relative;
   width: 350px;
-  height: 540px;
+  height: 520px;
   border-radius: 20px;
   padding: 40px;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+  margin: 40px auto 0px;
   box-sizing: border-box;
   background: #05ffa1;
 }
@@ -39,6 +28,8 @@ button {
 
 label {
   margin-bottom: 4px;
+  padding: 20px;
+  text-align: center;
 }
 
 label:nth-of-type(2) {
@@ -60,11 +51,12 @@ input {
 }
 
 .greenbutton {
-  color: white;
-  margin-top: 20px;
+  color: black;
+  font-size: 15px;
+  margin-top: 60px;
   background: #1ee99b;
   height: 40px;
-  border-radius: 20px;
+  border-radius: 40px;
   cursor: pointer;
   font-weight: 900;
   box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;

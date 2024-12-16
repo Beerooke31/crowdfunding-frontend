@@ -1,16 +1,16 @@
-.signupcontainer {
+.pledge-container {
   position: relative;
   width: 350px;
-  height: 900px;
+  height: 670px;
   border-radius: 20px;
   padding: 40px;
   text-align: center;
   margin: 40px auto 0px;
   box-sizing: border-box;
-  background: #01cdfe;
+  background: #eff3f1;
 }
 
-.signupinputs {
+.inputs {
   text-align: left;
   margin-top: 30px;
 }
@@ -40,7 +40,7 @@ input::placeholder {
 }
 
 input {
-  background: #ecf0f3;
+  background: #f5f6f7;
   padding: 10px;
   padding-left: 20px;
   height: 50px;
@@ -49,10 +49,10 @@ input {
   box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
 }
 
-.bluebutton {
+.greybutton {
   color: black;
   margin-top: 60px;
-  background: #1da1f2;
+  background: #e8eae9;
   height: 40px;
   border-radius: 20px;
   cursor: pointer;

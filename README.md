@@ -2,4 +2,6 @@
 
 Netlify deployment url: https://starbounty.netlify.app/
 
-Screenshots: "./Screenshots"
+Screenshots: [Screenshots](Screenshots)
+
+

@@ -8,6 +8,7 @@
   margin: 40px auto 0px;
   box-sizing: border-box;
   background: #ff71ce;
+  box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
 }
 
 .inputs {

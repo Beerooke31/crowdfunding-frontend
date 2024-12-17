@@ -19,18 +19,21 @@ a:hover {
   background-color: #fffb96;
   font-size: 30px;
   border-radius: 10%;
+  box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
 }
 
 .signup:hover {
   background-color: #01cdfe;
   font-size: 30px;
   border-radius: 10%;
+  box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
 }
 
 .login:hover {
   background-color: #05ffa1;
   font-size: 30px;
   border-radius: 10%;
+  box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
 }
 
 .createproject:hover {
@@ -38,10 +41,12 @@ a:hover {
   font-size: 30px;
   border-radius: 10%;
   width: 120px;
+  box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
 }
 
 .about:hover {
   background-color: #b967ff;
   font-size: 30px;
   border-radius: 10%;
+  box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
 }

@@ -1,4 +1,3 @@
-import LoginForm from "../components/LoginForm";
 import PledgeForm from "../components/PledgeForm";
 
 function PledgePage() {

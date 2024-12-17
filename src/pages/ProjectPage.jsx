@@ -22,15 +22,18 @@ function ProjectPage() {
     <div>
       <div class="project-title">
         <h2>{project.title}</h2>
+        <p>{project.description}</p>
       </div>
       <div class="pledge-info">
         <h3>Pledges:</h3>
         <ul>
           {project.pledges.map((pledgeData, key) => {
             return (
-              <p key={key}>
-                {pledgeData.amount} of {pledgeData.goal}
-              </p>
+              <div class="pledge-amount">
+                <p key={key}>
+                  {pledgeData.amount} of {project.goal}
+                </p>
+              </div>
             );
           })}
         </ul>

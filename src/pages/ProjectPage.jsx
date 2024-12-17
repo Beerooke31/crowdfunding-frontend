@@ -35,10 +35,8 @@ function ProjectPage() {
           })}
         </ul>
       </div>
-
       <PledgeForm />
     </div>
   );
 }
-
 export default ProjectPage;

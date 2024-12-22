@@ -41,7 +41,7 @@ function SignupForm() {
         setAuth({
           token: response.token,
         });
-        navigate("/");
+        navigate("/login");
       });
     }
   };

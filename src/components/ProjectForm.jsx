@@ -84,7 +84,7 @@ function ProjectForm() {
           <div>
             <label htmlFor="image">Image:</label>
             <input
-              type="input"
+              type="file"
               id="image"
               placeholder="Add an image"
               onChange={handleChange}

@@ -60,7 +60,7 @@ function PledgeForm() {
           <div>
             <label htmlFor="amount">Amount:</label>
             <input
-              type="num"
+              type="number"
               id="amount"
               placeholder="Amount"
               onChange={handleChange}

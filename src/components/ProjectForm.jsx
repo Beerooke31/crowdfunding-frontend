@@ -66,7 +66,7 @@ function ProjectForm() {
           <div>
             <label htmlFor="description">Description:</label>
             <input
-              type="description"
+              type="text"
               id="description"
               placeholder="Description"
               onChange={handleChange}
@@ -75,7 +75,7 @@ function ProjectForm() {
           <div>
             <label htmlFor="goal">Goal:</label>
             <input
-              type="goal"
+              type="number"
               id="goal"
               placeholder="Fundraising goal"
               onChange={handleChange}

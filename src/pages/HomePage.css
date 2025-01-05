@@ -37,3 +37,9 @@ body {
     text-shadow: 0 0 30px #01cdfe, 0 0 10px #b967ff;
   }
 }
+
+@media screen and (width: 1000px) {
+  .home-title {
+    font-size: 20px;
+  }
+}

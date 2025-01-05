@@ -11,42 +11,23 @@ a {
   color: #fff;
   text-decoration: none;
 }
-a:hover {
-  color: white;
-}
 
 .home:hover {
-  background-color: #fffb96;
-  font-size: 30px;
-  border-radius: 10%;
-  box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+  animation: glow 2s ease-in-out infinite alternate;
 }
 
 .signup:hover {
-  background-color: #01cdfe;
-  font-size: 30px;
-  border-radius: 10%;
-  box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+  animation: glow 2s ease-in-out infinite alternate;
 }
 
 .login:hover {
-  background-color: #05ffa1;
-  font-size: 30px;
-  border-radius: 10%;
-  box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+  animation: glow 2s ease-in-out infinite alternate;
 }
 
 .createproject:hover {
-  background-color: #ff71ce;
-  font-size: 30px;
-  border-radius: 10%;
-  width: 120px;
-  box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+  animation: glow 2s ease-in-out infinite alternate;
 }
 
 .about:hover {
-  background-color: #b967ff;
-  font-size: 30px;
-  border-radius: 10%;
-  box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+  animation: glow 2s ease-in-out infinite alternate;
 }

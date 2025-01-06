@@ -15,9 +15,9 @@ function HomePage() {
 
   return (
     <div>
-      <div class="home-title">
+      {/* <div class="home-title">
         <h1>STARBOUNTY</h1>
-      </div>
+      </div> */}
       <div class="project-list">
         {projects.map((projectData, key) => {
           return <ProjectCard key={key} projectData={projectData} />;

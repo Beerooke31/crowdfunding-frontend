@@ -1,13 +1,42 @@
 .navbar {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   align-items: center;
-  text-align: center;
   padding: 20px;
   margin-left: auto;
   margin-right: auto;
 }
+
+.home-title {
+  font-family: "outfit";
+  background: -webkit-linear-gradient(60deg, #05ffa1, #ff71ce 75%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 30px;
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 1;
+  font-size: 40px;
+  text-transform: uppercase;
+  animation: glow 2s ease-in-out infinite alternate;
+  text-align: left;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding: 10px;
+  margin-left: 15px;
+  margin-right: auto;
+}
+
+.home {
+  margin-left: 420px;
+}
+
 a {
+  padding: 15px;
   color: #fff;
   text-decoration: none;
 }

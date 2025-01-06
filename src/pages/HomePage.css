@@ -13,22 +13,6 @@ body {
   background-color: #0f0921;
 }
 
-.home-title {
-  font-family: "outfit";
-  background: -webkit-linear-gradient(60deg, #05ffa1, #ff71ce 75%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin: 0;
-  padding-bottom: 6rem;
-  grid-column: 1;
-  grid-row: 1;
-  z-index: 1;
-  font-size: 100px;
-  text-transform: uppercase;
-  animation: glow 2s ease-in-out infinite alternate;
-  text-align: center;
-}
-
 @keyframes glow {
   from {
     text-shadow: 0 0 20px #05ffa1;
@@ -38,8 +22,8 @@ body {
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 1000px) {
+/* @media screen and (min-width: 320px) and (max-width: 1000px) {
   .home-title {
     font-size: 50px;
   }
-}
+} */

@@ -20,16 +20,16 @@ function ProjectPage() {
 
   return (
     <div>
-      <div class="project-title">
+      <div className="project-title">
         <h2>{project.title}</h2>
         <p>{project.description}</p>
       </div>
-      <div class="pledge-info">
+      <div className="pledge-info">
         <h3>Pledges:</h3>
         <ul>
           {project.pledges.map((pledgeData, key) => {
             return (
-              <div class="pledge-amount">
+              <div className="pledge-amount">
                 <p key={key}>
                   {pledgeData.amount} of {project.goal}
                 </p>

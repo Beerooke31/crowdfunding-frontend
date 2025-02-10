@@ -2,7 +2,7 @@ import "./AboutPage.css";
 
 function AboutPage() {
   return (
-    <div class="aboutdescription">
+    <div className="aboutdescription">
       <h1>Starbounty - Choose Your Own Adventure </h1>
       <p>
         Starbounty is a crowdfunding platform designed to assist researchers and

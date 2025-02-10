@@ -41,10 +41,10 @@ function ProjectForm() {
         projectDetail.date_created,
         projectDetail.owner
       ).then((response) => {
-        window.localStorage.setItem("token", response.token);
-        setAuth({
-          token: response.token,
-        });
+        // window.localStorage.setItem("token", response.token);
+        // setAuth({
+        //   token: response.token,
+        // });
         navigate("/");
       });
     }

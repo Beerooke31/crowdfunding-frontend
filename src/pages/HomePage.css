@@ -1,8 +1,6 @@
 .project-list {
-  display: grid;
-  grid-template-columns: 30% 30% 30%;
-  column-gap: 70px;
-  row-gap: 50px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 * {
@@ -21,9 +19,3 @@ body {
     text-shadow: 0 0 30px #01cdfe, 0 0 10px #b967ff;
   }
 }
-
-/* @media screen and (min-width: 320px) and (max-width: 1000px) {
-  .home-title {
-    font-size: 50px;
-  }
-} */
